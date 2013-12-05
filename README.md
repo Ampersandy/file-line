@@ -13,7 +13,9 @@ src/exps/Map.php:30:5 new Thinger();
 
 This plugin will let you perform magic:
 
+```
 vim -p `codesearch Thinger | cut -f1,2 -d:`
+```
 -> a new tab opened to the specified line for each file returned.
 
 In the future I'll add an updated command that also uniq's on filenames and only returns the first line number match.
