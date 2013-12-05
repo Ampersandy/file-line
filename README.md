@@ -1,8 +1,8 @@
 file-line - fork
 =========
-This fork of https://github.com/bogado/file-line is a vim plugin that enables opening files with <file>:<line_no> syntax. Vim will open the file on the specified line.
+This fork of https://github.com/bogado/file-line is a vim plugin that enables opening files with \<file\>:\<line_no\> syntax. Vim will open the file on the specified line.
 
-It specifically drops column support, since <airquote>no one</airquote> cares about opening to a specific column.
+It specifically drops column support, since \<airquote\>*no one*\</airquote\> cares about opening to a specific column.
 It also will not delete the buffers for <file><line_no>, as doing so prevents opening files in multiple tabs with the '-p' flag. If you need a clean buffer list, this plugin is not for you.
 
 
